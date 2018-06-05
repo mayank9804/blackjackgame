@@ -1,0 +1,14 @@
+1
+12 2
+P P T P T P T P P P P T
+P P P P P P P T P T T T
+P P P T P P P P T P P T
+P P P T P P P P P P P P
+T T T P P P P P P P P P
+P P P P P P T T T P T P
+P P P T T P P P T P T P
+P P P P P P T T T P P P
+P P T T T P T T P P P P
+P T P P P P P T P T T P
+P P P P P P P P P P P P
+P P T P P T T P P P T T

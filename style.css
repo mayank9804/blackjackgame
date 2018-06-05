@@ -1,0 +1,61 @@
+*,.row,.col{
+    margin:0;
+    padding: 0;
+}
+body header ul{
+    list-style: none;
+    margin-right:0%;
+    margin-top:15px;
+}
+body header ul li{
+    display: inline;
+}
+header .social-links{
+    margin-left: 60%;
+}
+.hero-img{
+    background-image: url('./static/img/card.jpg');
+    background-position: center;
+    background-attachment: fixed;
+    color: white;
+    height: 500px;  
+    /* float: left; */
+    overflow: auto; 
+    height: 500px;;
+}
+.hero-img>h3{
+    margin-top:100px; 
+    text-align: center;
+}
+.hero-img>p{
+    width: 80%;
+    margin: auto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.3em;
+    margin-top: 5%;
+}
+.hero-img .btn{
+    color:black;
+    border-color:white;
+    background-color: white;
+}
+.hero-img .btn:hover{
+    color:white;
+    border-color:black;
+    background-color: black;
+}
+.hero-img>.form-actions{
+    text-align: center;
+}
+.margin-dist{
+    margin-top: 7%;
+}
+.game button{
+    width: 100%;
+}
+.game h1{
+    text-align: center;
+}
+.game p{
+    text-align: center;
+}

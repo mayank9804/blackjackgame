@@ -1,0 +1,6 @@
+1
+4 2
+T T T P
+T T T P
+P P P T
+T P T P

@@ -1,0 +1,80 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="author" content="Mayank">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" 
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Document</title>
+</head>
+<body>
+    <header class="container">
+        <div class="row">
+            <div class="col-sm-8">
+                <h1>BlackJack Game</h1>
+            </div>
+            <div class="col-sm-4">
+                <div class="social-links">
+                    <ul>
+                        <li> <i class="fa fa-github fa-2x"></i></li>
+                        <li><i class="fa fa-linkedin-square fa-2x"></i></li>
+                        <li><i class="fa fa-facebook-square fa-2x"></i></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main class="container">
+        <section class="hero-img">
+            <h3>Do you want to fill in your pockets but are not sure how? Try BlackJack</h3>
+            <p> 
+                Blackjack, also known as twenty-one, is a comparing card game between usually several players and a dealer, 
+                where each player in turn competes against the dealer, but players do not play against each other. 
+                It is played with one or more decks of 52 cards, and is the most widely played casino banking game in the world.
+            </p> 
+            <div class="form-actions">
+                    <button class="btn btn-primary" id="playInitButton">Play Now</button>
+            </div>
+            
+        </section>
+        <section>
+            <div class="alert alert-success won text-center">
+                <strong>You won!</strong> We wish to see you again!<p id="won-analysis"></p>
+            </div>
+            <div class="alert alert-dark lost text-center">
+                <strong>You lost!</strong> Better luck next time!<p id="lost-analysis"></p>
+            </div>
+        </section>
+        <section class="game margin-dist" id="game-section">
+            
+            
+            <div class="row">
+                <div class="col-sm-6">
+                    <h1>You</h1>
+                    <p id="text-area-for-player"></p>
+                </div>
+                <div class="col-sm-6">
+                    <h1>Dealer</h1>
+                    <p id="text-area-for-dealer"></p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4">
+                    <button id="hit" class="btn btn-primary">Hit</button>
+                </div>
+                <div class="col-sm-4">
+                    <button id="stand" class="btn btn-primary">Stand</button>
+                </div>
+                <div class="col-sm-4">
+                    <button id="surrender" class="btn btn-primary">Surrender</button>
+                </div>
+            </div>
+        </section>
+    </main>
+<script src="./logic.js"></script>
+</body>
+</html>
